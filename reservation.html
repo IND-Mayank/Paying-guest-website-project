@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body  style="background-color:#4287f5;">
+    <h1>Reservation of booking Room</h1>
+    <form>
+        <label>Your Reserved room:<input type="number" name="number" placeholder="Reserved room no. :"  pattern="{20}" 
+            required></label><br><br>
+        <label>Check in date</label>
+        <select id="check in" name="Month">
+            <option>Month</option><option>January</option><option>February</option><option>March</option>
+            <option>April</option><option>May</option><option>june</option><option>july</option>
+            <option>August</option><option>September</option><option>Octuber</option><option>November</option>
+            <option>December</option>
+        </select>
+        <select id="check in" name="Day">
+            <option>Day</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+            <option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+            <option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option>
+            <option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+            <option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option>
+            <option>31</option>
+        </select>
+        <select id="check in" name="year">
+            <option>Year</option>
+            <option>2022</option>
+            <option>2023</option>
+        </select><br><br>
+        <label>Check in time:<input type="hour" name=" minuts" placeholder="minuts"  pattern="{2}" 
+            required>
+        <input type="Minutes" name=" minutes" placeholder="minutes"  pattern="{2}" 
+            required>
+        </select>
+        <select id="Am Pm" name="am or pm">
+            <option>select</option>
+            <option>AM</option>
+            <option>PM</option>
+        </select><br><br>
+        </label>
+        <label>Confirm your data <input type="checkbox" name="check"></label><br><br>
+        <input type="submit" name="submit">
+    </form>
+    
+</body>
+</html>

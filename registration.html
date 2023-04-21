@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+</head>
+<body style="background-color:#74bad4;">
+    <h1  style="text-align:center">Register form</h1>
+    <form method="post" action="ins">
+        <lable>First name: <input type="text" name="FirstName" placeholder="firstname" required></lable><br><br>
+        <lable> Last name: <input type="text" name="LastName" placeholder="lastname" required></lable><br><br>
+        <label>Gender:
+        <label>Male <input type="radio" name="gender" value="male"></label>
+        <label>female <input type="radio" name="gender" value="female"></label>
+        <label>other <input type="radio" name="gender" value="other"></label> </label><br><br>
+        <label>Address: <input type="address" name="address" placeholder="Full address" required></label>
+        <label><input type="pincode" name="pincode" placeholder="pincode" required></label><br><br>
+        <label>Email: <input type="email" name="email" placeholder="your email" required></label><br><br>
+        <label>Phone no.: <input type="phoneno" name="phoneno" placeholder="ph.no."  pattern=".{10}" 
+            required titel="please enter 10 digit phone number"></label><br><br>
+        <label>
+            Password: <input type="password" name="password" placeholder=" your password" pattern=".{5,10}" 
+            required titel="please enter your password of length 5 to 10">
+        </label><br><br>
+        <label>Confirm your data <input type="checkbox" name="check"></label><br><br>
+        <input type="submit" name="submit">
+		<a href="res">Your reserved room</a>
+    </form>
+    
+</body>
+</html>
